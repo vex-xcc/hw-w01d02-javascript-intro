@@ -113,6 +113,20 @@ Write a conditional statement that...
 ```js
 // your answer here
 var myvar = 15;
+var res = "";
+if(myvar%3 === 0 ){
+  res = res + "Fizz";
+}
+if(myvar%5 === 0 ){
+    res += "Buzz";
+}
+console.log(res || numb);
+
+if (res) {
+  console.log(res);
+} else {
+  console.log(num);
+}
 ```
 
 #### BONUS
