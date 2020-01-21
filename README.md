@@ -112,15 +112,29 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 // your answer here
+var myvar = 15;
 ```
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
+let i = 0;
+while (i <=100) {
+  alert( i );
+  i++;
+}
 // your answer here
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
+function checknum(num) {
+  if (num <= 100) {
+    return true;
+  } else {
+
+    return confirm('the number should be between 1-100');
+  }
+}
 // your answer here
 ```
 
